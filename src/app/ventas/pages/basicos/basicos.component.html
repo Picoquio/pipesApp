@@ -37,6 +37,9 @@
                 <li>fecha | date:'short'</li>
                 <li>fecha | date:'long'</li>
                 <li>fecha | date:'dd/MM/y, H:mm, z'</li>
+                <!-- en los próximos cambiamos el horario según zona -->
+                <li> fecha | date:'short':'GMT-3'</li>
+                <li> fecha | date:'short':'GMT+2'</li>
             </ul>
         </p-card>
     </div>
@@ -48,6 +51,9 @@
                 <li> {{fecha | date:'short'}}</li>
                 <li> {{fecha | date:'long'}}</li>
                 <li> {{fecha | date:'dd/MM/y, H:mm, z'}}</li>
+                <!-- en los próximos cambiamos el horario según zona -->
+                <li> {{fecha | date:'short':'GMT-3'}}</li>
+                <li> {{fecha | date:'short':'GMT+2'}}</li>
             </ul>
         </p-card>
     </div>

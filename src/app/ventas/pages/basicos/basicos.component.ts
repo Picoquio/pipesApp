@@ -11,5 +11,6 @@ nombreLower: string = 'fernando'
 nombreUpper: string = 'FERNANDO'
 nombreCompleto: string = 'fErnANdO hERreRa'
  
+fecha: Date = new Date() //fecha de hoy
 
 }

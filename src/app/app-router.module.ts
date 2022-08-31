@@ -34,6 +34,8 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes)
   ],
+  /*Recordemos que si importamos algo, solo funciona en el modulo donde se importa. 
+  Para que funcione en cualquier otro lado debe exportarse. */
   exports: [
     RouterModule
   ]

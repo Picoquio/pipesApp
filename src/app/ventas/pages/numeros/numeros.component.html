@@ -10,7 +10,13 @@
         <p-card header="Ventas netas" subheader="del presente año">
             <!-- con la etiqueta 'i' se insertan los íconos de primeng -->
             <i class="pi pi-dollar"></i>
-            {{ventasNetas | number:'1.2-2'}}
+            {{ventasNetas + 1000000 | number:'1.2-2'}}
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="Ganancia porcentual" subheader="del presente año">
+            
+            {{porcentaje | percent:'2.2-2'}}
         </p-card>
     </div>
 </div>

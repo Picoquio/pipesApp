@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
 
 //módulos personalizados
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
@@ -19,7 +21,8 @@ import { VentasModule } from './ventas/ventas.module';
    PrimeNgModule, 
    SharedModule,
    AppRouterModule, 
-   VentasModule
+   VentasModule,
+   BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
